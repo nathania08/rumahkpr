@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container-landing {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+
+@media (max-width: 768px) {
+    .container-landing {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.perumDetailCard {
+    flex-direction: row-reverse;
+}
+
+@media(min-width: 1140px) {
+    .img-card-landing {
+        display: block !important;
+    }
+
+    .perumDetailCard {
+        flex-direction: row;
+    }
+}
+
+.background-section {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.img-card-landing {
+    display: none;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1) rotate(0deg);
+    transition: transform 0.3s;
+}
+
+.img-card-landing:hover {
+    transform: scale(1.1) rotate(3deg);
+    transition: transform 0.3s;
+}
+
+.img-fluid {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16/9 !important;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #ffc107;
+}
+
+footer h5 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+footer p,
+footer ul {
+    margin-bottom: 1rem;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.bg-secondary {
+    background-color: #6c757d;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media (max-width: 767.98px) {
+
+    .text-md-start,
+    .text-md-center,
+    .text-md-end {
+        text-align: center !important;
+    }
+}

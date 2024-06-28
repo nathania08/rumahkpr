@@ -1,0 +1,14 @@
+[
+    {
+        "judul": "Type 54 (Loft)",
+        "deskripsi": "<div>Ukuran 7,5 x 20 M</div><div>Sisa Tanah 7,5 x 7 M</div><div>2 Kamar Tidur</div><div>1 Kamar Mandi</div><div>2 Carport</div>",
+        "harga": 571000000,
+        "kategori_id": 1
+    },
+    {
+        "judul": "Type 45 (Nara)",
+        "deskripsi": "<div>Ukuran 6 x 15 M</div><div>Sisa Tanah 6 x 4 M</div><div>2 Kamar Tidur</div><div>1 Kamar Mandi</div><div>1 Carport</div>",
+        "harga": 402000000,
+        "kategori_id": 1
+    }
+]
